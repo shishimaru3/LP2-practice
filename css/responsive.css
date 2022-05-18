@@ -1,0 +1,284 @@
+@media screen and (max-width: 800px) {
+
+  /* ----------------------------------------
+  top
+  ------------------------------------------  */
+  .title h1 {
+    font-size: 4rem;
+    -webkit-text-stroke: 3px #00db16;
+    text-stroke: 3px #00db16;
+  }
+
+  .title h1 small {
+    font-size: 2rem;
+    -webkit-text-stroke: 1.5px #00db16;
+    text-stroke: 1.5px #00db16;
+  }
+
+  .title p {
+    font-size: 1.5rem;
+  }
+
+  /* ------------------------------------------
+  intro
+  --------------------------------------------- */
+  .section-title {
+    font-size: 2rem;
+    -webkit-text-stroke: 1.5px blue;
+    text-stroke: 1.5px blue;
+  }
+
+  .intro-description {
+    width: 52%;
+  }
+
+  .intro-description p {
+    font-size: 1rem;
+    line-height: 1.2;
+    letter-spacing: 0;
+  }
+
+  .intro-img {
+    width: 48%;
+  }
+
+  /* --------------------------------------------------
+  flowchart
+  ----------------------------------------------------- */
+  .flowchart-description {
+    width: 75%;
+  }
+
+  .flowchart-description p {
+    font-size: 1rem;
+    line-height: 1.2;
+    text-align: left;
+    margin: 3% 0;
+  }
+
+  .flowchart-wrapper {
+    width: 80%;
+    margin: 3% auto;
+  }
+
+  /* --------------------------------------------------
+  feature
+  ---------------------------------------------------- */
+  .feature-description {
+    width: 80%;
+  }
+
+  .feature-description p {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+
+  .feature-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+  }
+
+  .feature-item {
+    width: 90%;
+  }
+
+  .feature-item img {
+    height: 200px;
+  }
+
+  .feature-item-description h3 {
+    font-size: 1.5rem;
+  }
+
+  .feature-item-description p {
+    font-size: 1rem;
+  }
+
+  .others {
+    font-size: 1rem;
+  }
+
+  .other-item {
+    width: 80%;
+    margin: 3% auto;
+  }
+
+  .download p {
+    width: 65%;
+    font-size: 1rem;
+  }
+
+  /* ----------------------------------------------
+  footer
+  ------------------------------------------------- */
+  .nav-lower {
+    flex-wrap: wrap;
+  }
+}
+
+
+
+
+
+
+
+/* --------------------------------------------------------------
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+--------------------------------------------------------------- */
+
+
+@media screen and (max-width: 480px) {
+
+  /* -----------------------------------------------
+  top
+  -------------------------------------------------- */
+  .title h1 {
+    font-size: 2rem;
+    -webkit-text-stroke: 2px #00db16;
+    text-stroke: 2px #00db16;
+  }
+
+  .title h1 small {
+    font-size: 1rem;
+    -webkit-text-stroke: 1px #00db16;
+    text-stroke: 1px #00db16;
+  }
+
+  .title p {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  /* ---------------------------------------------------
+  intro
+  ----------------------------------------------------- */
+  .section-title {
+    font-size: 1rem;
+    -webkit-text-stroke: 1px blue;
+    text-stroke: 1px blue;
+  }
+
+  .intro-contents {
+    display: block;
+  }
+
+  .intro-description {
+    width: 80%;
+  }
+
+  .intro-description br {
+    display: none;
+  }
+
+  .intro-description p {
+    font-size: 0.7rem;
+  }
+
+  .intro-img {
+    width: 90%;
+    margin: 2% auto;
+  }
+
+  /* -----------------------------------------------------------
+  flowchart
+  -------------------------------------------------------------- */
+  /* .flowchart-description {
+    border: 1px solid purple;
+    width: 95%;
+  } */
+
+  .flowchart-description p {
+    font-size: 0.7rem;
+    /* text-align: center; */
+  }
+
+  .flowchart-wrapper {
+    width: 80%;
+    margin: 3% auto;
+  }
+
+  .flowchart-item p {
+    font-size: 0.7rem;
+  }
+
+  /* --------------------------------------------------
+  feature
+  ---------------------------------------------------- */
+  .feature-description {
+    width: 80%;
+  }
+
+  .feature-description p {
+    font-size: 0.7rem;
+    text-align: left;
+  }
+
+  .feature-description p span {
+    display: block;
+    text-align: center;
+  }
+
+  .feature-img img {
+    height: 145px;
+  }
+
+  .feature-item-description h3{
+    font-size: 1.2rem;
+  }
+
+  .feature-item-description p {
+    font-size: 0.7rem;
+  }
+
+  .others {
+    font-size: 0.7rem;
+  }
+
+  .other-feature-wrapper {
+    width: 90%;
+  }
+
+  .other-item p {
+    font-size: 0.7rem;
+  }
+  
+  .download p {
+    width: 80%;
+    font-size: 0.7rem;
+  }
+
+  /* ---------------------------------------------------------------------------------------
+  footer
+  -------------------------------------------------------------------------------------- */
+  .footer-logo {
+    width: 15%;
+  }
+  
+  .footer-logo img {
+    width: 100%;
+  }
+
+  .footer-nav-wrapper {
+    width: 85%;
+  }
+
+  .nav-upper li {
+    display: block;
+  }
+
+  .nav-upper li a {
+    font-size: 0.9rem;
+  }
+
+  .nav-lower li a {
+    font-size: 0.7rem;
+  }
+
+  .copyright {
+    font-size: 0.5rem;
+    font-weight: normal;
+  }
+}
