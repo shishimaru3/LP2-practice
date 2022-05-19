@@ -1,22 +1,90 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
+  /* ------------------------------------------
+  top
+  --------------------------------------------- */
+  .title h1 {
+    font-size: 5rem;
+  }
+
+  .title h1 small {
+    font-size: 2.5rem;
+  }
+
+  .title p {
+    font-size: 1.8rem;
+  }
+
+  /* --------------------------------------------
+  intro
+  ----------------------------------------------- */
+  .intro-description p {
+    font-size: 1rem;
+  }
+
+  /* ---------------------------------------------
+  flowchart
+  ----------------------------------------------- */
+  .flowchart-description p {
+    font-size: 1rem;
+  }
+
+  /* ---------------------------------------------
+  feature
+  ------------------------------------------------ */
+  .feature-description p {
+    font-size: 1rem;
+  }
+
+  .feature-item img {
+    height: 250px
+  }
+
+  .others {
+    font-size: 1rem;
+  }
+
+  /* ----------------------------------------------
+  download
+  --------------------------------------------------*/
+  .download p {
+    font-size: 1rem;
+  }
+
+  /* -----------------------------------------------
+  footer
+  --------------------------------------------------- */
+  .nav-lower li a {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .feature-img img {
+    height: 200px;
+  }
+}
+
+
+
+@media screen and (max-width: 850px) {
 
   /* ----------------------------------------
   top
   ------------------------------------------  */
   .title h1 {
-    font-size: 4rem;
+    font-size: 3.8rem;
     -webkit-text-stroke: 3px #00db16;
     text-stroke: 3px #00db16;
   }
 
   .title h1 small {
-    font-size: 2rem;
+    font-size: 1.8rem;
     -webkit-text-stroke: 1.5px #00db16;
     text-stroke: 1.5px #00db16;
   }
 
   .title p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   /* ------------------------------------------
@@ -117,20 +185,70 @@
   }
 }
 
+@media screen and (max-width: 660px) {
+  /* -----------------------------------------------
+  top
+  -------------------------------------------------- */
+  .title h1 {
+    font-size: 2.5rem;
+    -webkit-text-stroke: 2.5px #00db16;
+    text-stroke: 2.5px #00db16;
+  }
+
+  .title h1 small {
+    font-size: 1.25rem;
+    -webkit-text-stroke: 1.2px #00db16;
+    text-stroke: 1.2px #00db16;
+  }
+
+  .title p {
+    font-size: 1rem;
+  }
+
+  /* -------------------------------------------------
+  intro
+  --------------------------------------------------- */
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .intro-contents {
+    display: block;
+  }
+  
+  .intro-description {
+    width: 85%;
+  }
+
+  .intro-description br {
+    display: none;
+  }
+
+  .intro-img {
+    width: 80%;
+    margin: 3% auto;
+  }
+
+  /* ------------------------------------------------
+  flowchart
+  --------------------------------------------------- */
+  .flowchart-item img {
+    height: 200px;
+  }
+
+  .flowchart-item p {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .feature-img img {
+    height: 170px;
+  }
+}
 
 
-
-
-
-
-/* --------------------------------------------------------------
------------------------------------------------------------------
------------------------------------------------------------------
------------------------------------------------------------------
---------------------------------------------------------------- */
-
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
 
   /* -----------------------------------------------
   top
@@ -222,7 +340,7 @@
   }
 
   .feature-img img {
-    height: 145px;
+    height: 130px;
   }
 
   .feature-item-description h3{
@@ -265,12 +383,16 @@
     width: 85%;
   }
 
+  .footer-nav-wrapper ul li {
+    margin: 3% 3%;
+  }
+
   .nav-upper li {
     display: block;
   }
 
   .nav-upper li a {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .nav-lower li a {
@@ -279,6 +401,27 @@
 
   .copyright {
     font-size: 0.5rem;
+    font-weight: normal;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .feature-img img {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .title h1 {
+    font-size: 1.5rem;
+  }
+
+  .title h1 small {
+    font-size: 0.8rem;
+  }
+
+  .title p {
+    font-size: 0.6rem;
     font-weight: normal;
   }
 }
